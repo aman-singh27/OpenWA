@@ -74,6 +74,7 @@ export function Login({ onLogin }: LoginProps) {
                 {showKey ? <EyeOff size={20} /> : <Eye size={20} />}
               </button>
             </div>
+            <p className="login-tip">{t('login.apiKeyTip')}</p>
             {error && <span className="error-message">{error}</span>}
           </div>
 

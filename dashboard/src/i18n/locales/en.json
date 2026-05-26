@@ -71,6 +71,7 @@
   "login": {
     "apiKey": "API Key",
     "apiKeyPlaceholder": "Enter your API key",
+    "apiKeyTip": "Fresh install? Copy the API key from the server startup log or data/.api-key. Admins can create more keys after signing in.",
     "apiKeyRequired": "API key is required",
     "connect": "Connect",
     "connecting": "Connecting...",
